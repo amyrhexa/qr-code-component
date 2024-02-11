@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/Outfit-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OutfitBold;
+  src: url(../fonts/Outfit-Bold.ttf);
+  font-weight: 700;
+}
+body {
+  font-family: Outfit;
+  background-color: hsl(212, 45%, 89%);
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+body main section {
+  width: 80%;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 1.4rem;
+}
+@media screen and (min-width: 400px) {
+  body main section {
+    width: 335px;
+  }
+}
+body main section img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+body main section h2 {
+  color: hsl(218, 44%, 22%);
+  margin: 1rem 0;
+  font-family: OutfitBold;
+}
+body main section P {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
