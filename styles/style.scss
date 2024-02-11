@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    min-height: 100vh;
     section {
       width: 80%;
       background-color: $White;
